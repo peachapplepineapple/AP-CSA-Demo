@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ClassRoster
+comment0.text=\n\ ClassRoster\ \u2014\ stores\ all\ StudentProfile\ objects\ for\ our\ AP\ CSA\ class.\n\ Demonstrates\ ArrayList,\ iteration,\ and\ searching.\n\n\ @author\ \ Your\ Name\ Here\n\ @version\ 1.0\n
+comment1.params=className
+comment1.target=ClassRoster(java.lang.String)
+comment1.text=Creates\ an\ empty\ roster\ for\ the\ given\ class\ name.
+comment2.params=student
+comment2.target=void\ addStudent(StudentProfile)
+comment2.text=Adds\ a\ student\ to\ the\ roster.
+comment3.params=
+comment3.target=void\ printAll()
+comment3.text=Prints\ every\ student's\ introduction\ card.
+comment4.params=
+comment4.target=int\ size()
+comment4.text=Returns\ how\ many\ students\ are\ in\ the\ roster.
+comment5.params=lastName
+comment5.target=StudentProfile\ findByLastName(java.lang.String)
+comment5.text=\n\ Finds\ a\ student\ by\ last\ name\ (case-insensitive).\n\ @param\ lastName\ last\ name\ to\ search\ for\n\ @return\ the\ StudentProfile,\ or\ null\ if\ not\ found\n
+comment6.params=grade
+comment6.target=java.util.ArrayList\ getByGrade(int)
+comment6.text=\n\ Returns\ everyone\ in\ a\ specific\ grade.\n\ @param\ grade\ grade\ level\ to\ filter\ by\n\ @return\ ArrayList\ of\ matching\ students\n
+numComments=7
